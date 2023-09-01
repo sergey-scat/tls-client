@@ -13,8 +13,8 @@ import (
 
 	http "github.com/bogdanfinn/fhttp"
 	"github.com/bogdanfinn/fhttp/http2"
-	tls_client "github.com/bogdanfinn/tls-client"
-	"github.com/bogdanfinn/tls-client/shared"
+	tls_client "github.com/sergey-scat/tls-client"
+	"github.com/sergey-scat/tls-client/shared"
 	tls "github.com/bogdanfinn/utls"
 )
 
