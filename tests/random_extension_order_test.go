@@ -9,7 +9,7 @@ import (
 
 	http "github.com/bogdanfinn/fhttp"
 	tls_client "github.com/sergey-scat/tls-client"
-	"github.com/bogdanfinn/sergey-scat/shared"
+	"github.com/sergey-scat/shared"
 	"github.com/stretchr/testify/assert"
 )
 
