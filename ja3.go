@@ -139,6 +139,10 @@ func stringToSpec(ja3 string, signatureAlgorithms []tls.SignatureScheme, delegat
 		AlgorithmsSignature: delegatedCredentialsAlgorithms,
 	}
 
+	extMap[tls.ExtensionALPS] = &tls.ApplicationSettingsExtension{
+		SupportedProtocols: []string{"h2"},
+	}
+
 	var exts []tls.TLSExtension
 	for _, e := range extensions {
 		eId, err := strconv.ParseUint(e, 10, 16)

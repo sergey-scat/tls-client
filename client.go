@@ -322,7 +322,7 @@ func (c *httpClient) Do(req *http.Request) (*http.Response, error) {
 			return nil, err
 		}
 
-		c.logger.Debug("raw request bytes sent over wire: %d (%d kb)", len(requestBytes), len(requestBytes)/1024)
+		c.logger.Debug("Raw request bytes sent over wire: %d (%d kb)", len(requestBytes), len(requestBytes)/1024)
 	}
 
 	resp, err := c.Client.Do(req)
