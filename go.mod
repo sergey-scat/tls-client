@@ -5,7 +5,7 @@ go 1.21.0
 require (
 	github.com/google/uuid v1.3.1
 	github.com/sergey-scat/fhttp v0.0.0-20230905082350-db97f77f5cca
-	github.com/sergey-scat/utls v0.0.0-20230905080324-c934a756b240
+	github.com/sergey-scat/utls v0.0.0-20230905083105-19b4bcf08fb8
 	github.com/stretchr/testify v1.8.4
 	github.com/tam7t/hpkp v0.0.0-20160821193359-2b70b4024ed5
 	golang.org/x/net v0.14.0
