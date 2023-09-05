@@ -11,8 +11,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	http "github.com/bogdanfinn/fhttp"
-	"github.com/bogdanfinn/fhttp/http2"
+	http "github.com/sergey-scat/fhttp"
+	"github.com/sergey-scat/fhttp/http2"
 	tls "github.com/sergey-scat/utls"
 	tls_client "github.com/sergey-scat/tls-client"
 	"github.com/sergey-scat/tls-client/shared"

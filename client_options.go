@@ -6,7 +6,7 @@ import (
 	"net"
 	"time"
 
-	http "github.com/bogdanfinn/fhttp"
+	http "github.com/sergey-scat/fhttp"
 )
 
 type HttpClientOption func(config *httpClientConfig)

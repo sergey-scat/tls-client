@@ -3,7 +3,7 @@ package tls_client
 import (
 	"math"
 
-	"github.com/bogdanfinn/fhttp/http2"
+	"github.com/sergey-scat/fhttp/http2"
 	tls "github.com/sergey-scat/utls"
 )
 

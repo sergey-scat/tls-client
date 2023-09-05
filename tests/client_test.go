@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	http "github.com/bogdanfinn/fhttp"
+	http "github.com/sergey-scat/fhttp"
 	tls_client "github.com/sergey-scat/tls-client"
 	"github.com/sergey-scat/tls-client/shared"
 	tls "github.com/sergey-scat/utls"
