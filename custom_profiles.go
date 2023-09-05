@@ -4,7 +4,7 @@ import (
 	"math"
 
 	"github.com/bogdanfinn/fhttp/http2"
-	tls "github.com/bogdanfinn/utls"
+	tls "github.com/sergey-scat/utls"
 )
 
 var ZalandoAndroidMobile = ClientProfile{

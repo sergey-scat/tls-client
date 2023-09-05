@@ -2,7 +2,7 @@ package tests
 
 import (
 	tls_client "github.com/sergey-scat/tls-client"
-	tls "github.com/bogdanfinn/utls"
+	tls "github.com/sergey-scat/utls"
 )
 
 const (

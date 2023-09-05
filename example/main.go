@@ -13,19 +13,19 @@ import (
 
 	http "github.com/bogdanfinn/fhttp"
 	"github.com/bogdanfinn/fhttp/http2"
+	tls "github.com/sergey-scat/utls"
 	tls_client "github.com/sergey-scat/tls-client"
 	"github.com/sergey-scat/tls-client/shared"
-	tls "github.com/bogdanfinn/utls"
 )
 
 func main() {
-	sslPinning()
-	requestToppsAsChrome107Client()
-	postAsTlsClient()
-	requestWithFollowRedirectSwitch()
+	// sslPinning()
+	// requestToppsAsChrome107Client()
+	// postAsTlsClient()
+	// requestWithFollowRedirectSwitch()
 	requestWithCustomClient()
-	rotateProxiesOnClient()
-	downloadImageWithTlsClient()
+	// rotateProxiesOnClient()
+	// downloadImageWithTlsClient()
 }
 
 func sslPinning() {
@@ -557,6 +557,7 @@ func requestWithCustomClient() {
 				&tls.ApplicationSettingsExtension{SupportedProtocols: []string{"h2"}},
 				&tls.UtlsGREASEExtension{},
 				&tls.UtlsPaddingExtension{GetPaddingLen: tls.BoringPaddingStyle},
+				&tls.PreSharedKeyExtension{},
 			},
 		}, nil
 	}
@@ -579,7 +580,7 @@ func requestWithCustomClient() {
 		return
 	}
 
-	req, err := http.NewRequest(http.MethodGet, "https://www.topps.com/", nil)
+	req, err := http.NewRequest(http.MethodGet, "https://botcheck.luminati.io/", nil)
 	if err != nil {
 		log.Println(err)
 		return
