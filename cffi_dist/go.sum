@@ -6,10 +6,10 @@ github.com/klauspost/compress v1.16.7 h1:2mk3MPGNzKyxErAw8YaohYh69+pa4sIQSC0fPGC
 github.com/klauspost/compress v1.16.7/go.mod h1:ntbaceVETuRiXiv4DpjP66DpAtAGkEQskQzEyD//IeE=
 github.com/sergey-scat/fhttp v0.0.0-20230905082350-db97f77f5cca h1:WpGnerFKJ6nzWyETpFk1XCopsC95xrykxxulLohp/qM=
 github.com/sergey-scat/fhttp v0.0.0-20230905082350-db97f77f5cca/go.mod h1:T5mFFPzJWpNU/FCkBPmrXzneomppHKWuLEalE0X20OU=
-github.com/sergey-scat/tls-client v0.0.0-20230905082945-0366e2c9f121 h1:stO6wk7yEKsJRuPonaXGuCrw1S2p5thBPitlvE2QE3w=
-github.com/sergey-scat/tls-client v0.0.0-20230905082945-0366e2c9f121/go.mod h1:V27WWumdiwgu0aV3SPK+dEly9us1Xjnni4u3FQvvZVk=
-github.com/sergey-scat/utls v0.0.0-20230905080324-c934a756b240 h1:X5vQ0b3owamPoj7MPqthB0zPng9dhdB8tyxM8/sTL0o=
-github.com/sergey-scat/utls v0.0.0-20230905080324-c934a756b240/go.mod h1:VhUoifYAx+15CSH84xxGtKvC0Wc+UbM+8AsZ5FydG2s=
+github.com/sergey-scat/tls-client v0.0.0-20230905085335-91ff2108dc2f h1:OExQvMIcesA4kmzNWrCCGcTUTFXNm/7AIpJz1MFHUGc=
+github.com/sergey-scat/tls-client v0.0.0-20230905085335-91ff2108dc2f/go.mod h1:LPTvWPVfbHP4jm9xddMsnLH3AW1tXAqWYQiStpNe7U4=
+github.com/sergey-scat/utls v0.0.0-20230905083105-19b4bcf08fb8 h1:C+zvlPnx4+mrRtM1ZofXx7bBkw9RD28W5Rz+WsRIi+Q=
+github.com/sergey-scat/utls v0.0.0-20230905083105-19b4bcf08fb8/go.mod h1:yVLUSyp/INGGzFU7QPAnnCFwXx+t3udQWNo58Ncik5o=
 github.com/tam7t/hpkp v0.0.0-20160821193359-2b70b4024ed5 h1:YqAladjX7xpA6BM04leXMWAEjS0mTZ5kUU9KRBriQJc=
 github.com/tam7t/hpkp v0.0.0-20160821193359-2b70b4024ed5/go.mod h1:2JjD2zLQYH5HO74y5+aE3remJQvl6q4Sn6aWA2wD1Ng=
 golang.org/x/crypto v0.12.0 h1:tFM/ta59kqch6LlvYnPa0yx5a83cL2nHflFhYKvv9Yk=

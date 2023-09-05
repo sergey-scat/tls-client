@@ -10,8 +10,8 @@ github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZb
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/sergey-scat/fhttp v0.0.0-20230905082350-db97f77f5cca h1:WpGnerFKJ6nzWyETpFk1XCopsC95xrykxxulLohp/qM=
 github.com/sergey-scat/fhttp v0.0.0-20230905082350-db97f77f5cca/go.mod h1:T5mFFPzJWpNU/FCkBPmrXzneomppHKWuLEalE0X20OU=
-github.com/sergey-scat/utls v0.0.0-20230905083105-19b4bcf08fb8 h1:C+zvlPnx4+mrRtM1ZofXx7bBkw9RD28W5Rz+WsRIi+Q=
-github.com/sergey-scat/utls v0.0.0-20230905083105-19b4bcf08fb8/go.mod h1:yVLUSyp/INGGzFU7QPAnnCFwXx+t3udQWNo58Ncik5o=
+github.com/sergey-scat/utls v0.0.0-20230905085011-3628894a1a08 h1:+B2S6hJyip/DmtXuuJa3X/Ru3txOs8nNFIFHoBdyDP8=
+github.com/sergey-scat/utls v0.0.0-20230905085011-3628894a1a08/go.mod h1:yVLUSyp/INGGzFU7QPAnnCFwXx+t3udQWNo58Ncik5o=
 github.com/stretchr/testify v1.8.4 h1:CcVxjf3Q8PM0mHUKJCdn+eZZtm5yQwehR5yeSVQQcUk=
 github.com/stretchr/testify v1.8.4/go.mod h1:sz/lmYIOXD/1dqDmKjjqLyZ2RngseejIcXlSw2iwfAo=
 github.com/tam7t/hpkp v0.0.0-20160821193359-2b70b4024ed5 h1:YqAladjX7xpA6BM04leXMWAEjS0mTZ5kUU9KRBriQJc=
